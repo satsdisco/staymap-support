@@ -2,20 +2,40 @@
 
 StayMap keeps your hotel journal on your device. Optional accounts add email forwarding, private Friends and recommendations you explicitly send or receive. Signing in does not back up or synchronize your journal.
 
-## Import a booking, including emailed photos and PDFs
+## Import a booking
 
-1. Open **Settings → Account & forwarding** and sign in with the code emailed to you. Your first sign-in creates the optional account.
-2. Copy your private forwarding address. Forward one booking directly to it as the only recipient, without CC/BCC.
-3. Refresh **Forwarded confirmations**. Choose **Review confirmation** or **Review email & files**. Select relevant booking photos/PDFs and email text; leave unrelated logos out.
-4. Choose **Read confirmation**, then check the hotel, location, dates, confirmation number and nightly rate before saving. Receipt of an email never automatically adds, changes or cancels a stay.
+From **Stays**, open the **+** menu and choose **Import confirmation**. Choose **Forwarded email**, **Photos**, **PDF or file**, or **Paste text**. Photos, files and pasted text work without an account. Choosing a source does not add a stay: review the extracted hotel, location, dates, confirmation number and nightly rate before saving.
+
+Open **Confirmations** from the Stays **+** menu to return to unfinished reviews and forwarded emails in one place. Closing a review keeps its corrections on this device. Local reviews are not uploaded or synchronized by signing in. If a row says **Already added**, it opens the saved stay instead of adding another copy.
+
+### Forward a booking, including photos and PDFs
+
+1. In **Confirmations**, choose **Set up email forwarding** and sign in with the code emailed to you. Your first sign-in creates the optional account. You can also use **Settings → Account & forwarding**.
+2. Choose **Forward a confirmation** and copy your private forwarding address. Forward one booking directly to it as the only recipient, without CC/BCC.
+3. Refresh **Confirmations** and open the email. Select relevant booking photos/PDFs and email text; leave unrelated logos out.
+4. Choose **Read confirmation**, then check the suggested booking details before saving. Receipt of an email never automatically adds, changes or cancels a stay.
 
 Supported attachments are JPEG, PNG, HEIC, HEIF, WebP and PDF: up to 20 per email, 20 MiB per file, 20 pages per PDF and 64 megapixels per image. Selected files are downloaded and read on your iPhone. The complete forwarded message, including attachments, passes through Resend. Original files are not kept as permanent booking documents; extracted text and corrections remain in the local review.
 
-If a logo or file cannot be read, deselect it and retry with the booking pages. **Refresh files** renews temporary links while keeping excluded files unselected. Cancelling reading leaves the email available. Reopening a review preserves your corrections; **Read other files** starts a separate review. For unsupported or oversized files, use a smaller PDF/image or import its text directly. Conflicting hotels, dates, references or prices require review; parsing is not guaranteed for every provider or language.
+If a logo or file cannot be read, deselect it and retry with the booking pages. **Refresh files** renews temporary links while keeping excluded files unselected. Cancelling reading leaves the email available. Reopening a review preserves your corrections; **Read other booking files** in its options starts a separate review. In Account & forwarding, the equivalent action is **Read other files**. For unsupported or oversized files, use a smaller PDF/image or import its text directly. Conflicting hotels, dates, references or prices require review; parsing is not guaranteed for every provider or language.
 
-Emails with attachments stay in the temporary forwarding inbox until discarded or the 30-day retention period expires. Text-only email copies can be removed after a successful local handoff. **Discard email** leaves downloaded reviews and saved stays on your device. Outages may delay scheduled cleanup; providers retain their own copies separately.
+Emails with attachments stay in the temporary forwarding inbox until discarded or the 30-day retention period expires. Text-only email copies can be removed after a successful local handoff. **Remove email copy** in Confirmations, or **Discard email** in Account & forwarding, leaves downloaded reviews and saved stays on your device. **Remove review copy** removes only the selected local review; it does not remove a separate cloud email or cancel a reservation. Outages may delay scheduled cleanup; providers retain their own copies separately.
 
 Missing code or confirmation? Check the address and spam folder, then refresh. Forwarding requires an internet connection. **Get a new address** replaces an exposed forwarding address; the old address stops accepting mail. Anyone who knows your forwarding address can send mail to it.
+
+## Explore a property and choose your own cover
+
+Open a stay's **Explore hotel** or **Explore property** screen and choose **Photos on Google Maps**. Check or edit the property name and city, then choose **Search Google Maps**. Select the correct address before browsing Google's photos and details. Opening this screen alone does not search. Photos and listing coverage vary; there may be no matching listing or photo.
+
+The search uses the property's saved map area when the text is unchanged. Otherwise, Apple first helps locate the text you submit. It uses the property or search area, not your phone's live location. Google receives the submitted text, search area and network information, including your IP address; its SDK declares device identifier collection for functionality and analytics. Keep personal booking details out of the search field. StayMap does not add your booking dates, confirmation codes, ratings or notes to these requests. See the [privacy policy](https://gist.github.com/satsdisco/314ec0ece5154b0453e3373584e86214) for the full data flows.
+
+If Google cannot load, try again later or use **Apple Maps & Look Around**. The Apple screen can search when opened; choose the correct listing, then open its place details or **Look around the area** where coverage is available. Street imagery is not a hotel photo gallery. Provider errors and usage limits do not change or remove your saved stay.
+
+Photos and street imagery in these Google and Apple exploration views remain provider content. They do not become your journal cover, a journal backup photo or an image sent to a friend. Use the photo control on your stay to choose a personal cover from Photos. StayMap saves a smaller local copy without the source image's embedded location metadata; the original in Photos stays unchanged. Your own cover is included in exported journal backups.
+
+### Google Maps terms
+
+StayMap includes Google Maps features and content. Your use of those features and content is subject to the current [Google Maps End User Additional Terms](https://maps.google.com/help/terms_maps/) and [Google Privacy Policy](https://policies.google.com/privacy). **About Google results** in the viewer explains Google's search ranking and opens these links. **Settings → Map provider notices** contains the SDK's open-source notices.
 
 ## Remember places around your hotel
 
@@ -51,7 +71,7 @@ Delete an account through **Settings → Account & forwarding → Delete account
 
 In the beta, use **Send Beta Feedback** in TestFlight to report a problem with its screenshot and build number. Remove unnecessary private booking details and never include sign-in codes. You can also open an issue in this support repository; **issues are public**, so do not post private confirmations, invitation codes, account details or personal data requests there.
 
-For a private account, data-access or provider-deletion request, use the current contact in the [privacy policy](https://gist.github.com/satsdisco/314ec0ece5154b0453e3373584e86214). Include the app version and a short description of what happened.
+For private help, an account/data-access question or a provider-deletion request, email **support@staymap.app**. Include the app version and a short description of what happened. Never include sign-in codes; send booking details or attachments only when needed for the issue and after removing unrelated personal information.
 
 ## Privacy Policy
 
