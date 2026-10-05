@@ -2,13 +2,13 @@
 
 StayMap keeps your hotel journal on your device. Optional accounts add email forwarding, private Friends and recommendations you explicitly send or receive. Signing in does not back up or synchronize your journal.
 
-## Upcoming beta: Friends highlights and arrival details
+## Build 34: Friends highlights and arrival details
 
-These additions are being prepared for a future beta and are **not available in the current public build 33**. Existing invitations, recommendations and email/photo/PDF imports continue to work as described below.
+Friends highlights and arrival details are **available in public TestFlight build 34**. Update StayMap in TestFlight to use them. Existing invitations, recommendations and email/photo/PDF imports continue to work as described below.
 
 ### Travel highlights you choose to share
 
-The next Friends area adds a direct entry on **Stays** and a **Your travel highlights** card. Sharing starts off. Choose **Preview sharing** to inspect three totals calculated from completed stays: stays, nights and number of countries. Current and future stays are excluded. Choose **Share with friends** only if you want to publish that snapshot.
+Friends has a direct entry on **Stays** and a **Your travel highlights** card. Sharing starts off. Choose **Preview sharing** to inspect three totals calculated from completed stays: stays, nights and number of countries. Current and future stays are excluded. Choose **Share with friends** only if you want to publish that snapshot.
 
 Your **current and future accepted friends** can see the three totals and the time you shared them alongside your chosen Friends name. No hotel or country names, individual travel dates, future bookings, costs, booking details, photos or private notes are included. These are totals supplied by your app, not independently verified travel records. There is no public stats directory.
 
