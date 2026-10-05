@@ -2,6 +2,30 @@
 
 StayMap keeps your hotel journal on your device. Optional accounts add email forwarding, private Friends and recommendations you explicitly send or receive. Signing in does not back up or synchronize your journal.
 
+## Upcoming beta: Friends highlights and arrival details
+
+These additions are being prepared for a future beta and are **not available in the current public build 33**. Existing invitations, recommendations and email/photo/PDF imports continue to work as described below.
+
+### Travel highlights you choose to share
+
+The next Friends area adds a direct entry on **Stays** and a **Your travel highlights** card. Sharing starts off. Choose **Preview sharing** to inspect three totals calculated from completed stays: stays, nights and number of countries. Current and future stays are excluded. Choose **Share with friends** only if you want to publish that snapshot.
+
+Your **current and future accepted friends** can see the three totals and the time you shared them alongside your chosen Friends name. No hotel or country names, individual travel dates, future bookings, costs, booking details, photos or private notes are included. These are totals supplied by your app, not independently verified travel records. There is no public stats directory.
+
+Highlights stay as last published until you replace them or stop sharing; they do not expire automatically. Changing or deleting a local stay does not update them. **Preview an update** lets you inspect new totals before explicitly replacing the shared snapshot. A friend's card shows when their highlights were shared, so an older snapshot is easy to identify.
+
+Choose **Stop sharing highlights**, then confirm **Stop sharing**, to remove the active totals and their publication time. Removing a friend or blocking also removes that person's access. Unblocking alone does not reconnect you; accepting a connection again while highlights are still shared grants access to the existing snapshot. Previously seen information and screenshots cannot be recalled. Signing out does not stop sharing. Deleting the account removes its summary and retained revision record, as described in the privacy policy.
+
+If a network error leaves sharing status uncertain, refresh it before trying again; do not assume a publish or stop action failed. If another action changed the snapshot, review the refreshed state and prepare a new preview. There is no automatic retry that turns sharing back on.
+
+### Arrival details in confirmation review
+
+Newly read confirmations can suggest explicitly labelled **check-in from**, **check-out by**, **breakfast details** and **arrival instructions**. Review these optional fields in **Arrival details** before saving. Edit or clear anything that does not match the actual booking. Clock times are local to the property; the parser does not infer a time zone or assume a meal is included.
+
+This uses the existing on-device reading flow for pasted text, forwarded email text, selected email photos/PDFs, local captures and the share extension. Ambiguous or missing details may remain empty, and conflicting values need review. Your corrections, including deliberately cleared fields, stay with the local draft when you close and reopen it. Older reviewed drafts and saved stays are not silently re-imported or updated.
+
+Arrival details remain in your private stay. They are included in journal backups and a deleted stay's recovery copy. Companion booking sharing includes them only if you explicitly enable its separate arrival-details option; Friends highlights and direct recommendations do not include them. Review access instructions for sensitive information before sharing a booking copy.
+
 ## Import a booking
 
 From **Stays**, open the **+** menu and choose **Import confirmation**. Choose **Forwarded email**, **Photos**, **PDF or file**, or **Paste text**. Photos, files and pasted text work without an account. Choosing a source does not add a stay: review the extracted hotel, location, dates, confirmation number and nightly rate before saving.
