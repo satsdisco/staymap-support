@@ -2,6 +2,18 @@
 
 StayMap keeps your hotel journal on your device. Optional accounts add email forwarding, private Friends and recommendations you explicitly send or receive. Signing in does not back up or synchronize your journal.
 
+## Desktop journal — connection in the next beta
+
+The [desktop journal](https://staymap-journal.grafton351474.chatgpt.site/) is available for account sign-in. **Build 36 cannot upload stays yet.** The iPhone connector is being prepared for the next beta; look for **Account → Desktop journal** in a supported build.
+
+Sign in with the same email on both devices. On iPhone, review **Connect desktop journal** and confirm only if you want to send hotel names, dates, cities, countries and saved map locations to your private account. Signing in alone uploads nothing. Keep StayMap open until updating finishes, then refresh the desktop page. Hotel edits and deletions appear after uploading.
+
+This is a **read-only outline**, not full cloud backup or two-way sync. Photos, ratings, notes, street addresses, booking details, memberships and saved places remain on iPhone. The desktop **Export outline** file cannot restore a new phone. Use **Settings → Back up or restore your history** for your complete local journal.
+
+**Pause connection** stops cloud access and uploads while retaining the cloud copy. **Erase cloud journal** removes the active cloud outline and revision history, leaving local stays intact. Offline requests finish when StayMap reconnects. Deleting one stay does not remove older cloud revisions; whole-journal erasure or account deletion does. Signing out does not erase cloud data or transfer this device's journal to a different account.
+
+On desktop, **Already have a code?** lets you enter the latest code without requesting another email. **Keep me signed in in this tab** is optional; sign out on a shared computer. StayMap does not store journal content in browser storage. If a check fails, no previously loaded stays are presented as current: try again or reload the page. See the [privacy policy](https://gist.github.com/satsdisco/314ec0ece5154b0453e3373584e86214) for storage and retention details.
+
 ## Build 34: Friends highlights and arrival details
 
 Friends highlights and arrival details are **available in public TestFlight build 34**. Update StayMap in TestFlight to use them. Existing invitations, recommendations and email/photo/PDF imports continue to work as described below.
